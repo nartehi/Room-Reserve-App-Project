@@ -16,7 +16,12 @@
 - View the daily schedule of the study rooms within each academic building.
 - View the capacity of each study room
 - View the names of buildings and the room numbers
-- The web app will also aid students to effortlessly reserve study spaces in academic buildings. *
+- The web app will also aid students to effortlessly reserve study spaces in academic buildings.
+
+
+![image](https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/9de6547c-d97f-436b-a520-1e4389e0d462)
+
+-   *
 
 **PROCESS SUMMARY**
 *Briefly summarize your design and implementation process,
