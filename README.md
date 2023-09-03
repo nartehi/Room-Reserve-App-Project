@@ -39,6 +39,25 @@
 
 -   *
 
+
+ **How to Make Reserve_App_Frontend**
+* Download and install Node.js
+* In terminal, enter command npm create vite@latest
+* Name project Reserve_App_Frontend
+* Select React as framework
+* Select JavaScript as language
+
+**How to Run Server**
+*Move into Reserve_App_Frontend directory (cd)
+*Install the dependencies: npm install
+*Run application in developer mode: npm run dev
+*Click on host link to view the page
+
+**To Stop Server**
+*Ctrl + c in terminal
+
+
+
 **PROCESS SUMMARY**
 *Briefly summarize your design and implementation process,
 including how much your initial design plan evolved,
@@ -81,5 +100,5 @@ Also list all other references below.*
 - Azis 
 
 ## References:
-- This repo contains a stub by Jan Pearce
+- This repo 
 - Azis 
