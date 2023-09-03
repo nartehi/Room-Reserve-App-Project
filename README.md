@@ -45,13 +45,13 @@
 *Select React as framework
 *Select JavaScript as language
 
-**How to Run Server**
+##How to Run Server
 *Move into Reserve_App_Frontend directory (cd)
 *Install the dependencies: npm install
 *Run application in developer mode: npm run dev
 *Click on host link to view the page
 
-**To Stop Server**
+##To Stop Server
 *Ctrl + c in terminal
 
 
