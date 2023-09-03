@@ -20,7 +20,7 @@
 
 ## Wireframe Project Design
 
-## Student View
+### Student View
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/0414b654-c43a-4401-b4a5-441e858f4415" width="300"/>
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/c12c6e09-9516-43d7-b43f-c7217d680543" width="300"/>
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/b89ae97a-6e20-4b87-96cf-e744093ed26e" width="300"/>
@@ -28,7 +28,7 @@
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/5f8125f9-2b1f-4219-8b6c-13bd895168ce" width="300"/>
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/9ae5fba2-bc8e-44e1-9d40-9642bf697ccf" width="300"/>
 
-## Admin View
+### Admin View
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/0414b654-c43a-4401-b4a5-441e858f4415" width="300"/>
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/e7a0dfb9-820d-4616-89d9-09dec8cbeb55" width="300"/>
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/c12c6e09-9516-43d7-b43f-c7217d680543" width="300"/>
@@ -38,12 +38,12 @@
 
 
 
- **How to Make Reserve_App_Frontend**
-* Download and install Node.js
-* In terminal, enter command npm create vite@latest
-* Name project Reserve_App_Frontend
-* Select React as framework
-* Select JavaScript as language
+## How to Make Reserve_App_Frontend
+*Download and install Node.js
+*In terminal, enter command npm create vite@latest
+*Name project Reserve_App_Frontend
+*Select React as framework
+*Select JavaScript as language
 
 **How to Run Server**
 *Move into Reserve_App_Frontend directory (cd)
@@ -95,8 +95,8 @@ on what you learned and your reactions to this lab.*
 all help you gave to others in completing this lab.
 Also list all other references below.*
 
-- Azis 
 
 ## References:
-- This repo 
-- Azis 
+- CodePath
+- Udemy
+- 
