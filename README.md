@@ -39,24 +39,24 @@
 
 
 ## How to Make Reserve_App_Frontend
-*Download and install Node.js
-*In terminal, enter command npm create vite@latest
-*Name project Reserve_App_Frontend
-*Select React as framework
-*Select JavaScript as language
+- Download and install Node.js 
+- In terminal, enter command npm create vite@latest
+- Name project Reserve_App_Frontend 
+- Select React as framework 
+- Select JavaScript as language 
 
 ## How to Run Server
-*Move into Reserve_App_Frontend directory (cd)
-*Install the dependencies: npm install
-*Run application in developer mode: npm run dev
-*Click on host link to view the page
+- Move into Reserve_App_Frontend directory (cd)
+- Install the dependencies: npm install
+- Run application in developer mode: npm run dev
+- Click on the host link to view the page
 
 ## To Stop Server
-*Ctrl + c in terminal
+- Ctrl + c in terminal
 
 
 
-**PROCESS SUMMARY**
+## Process Summary
 *Briefly summarize your design and implementation process,
 including how much your initial design plan evolved,
 the final results you achieved, and the amount of time you spent
@@ -64,33 +64,33 @@ as a programmer or programmers in accomplishing these results.
 This should be one or at most two paragraphs.*
 
 
-6. **IMPLEMENTATIONS**
+ ## Implementation
 *Please briefly describe what was accomplished including
 the largest challenges overcome and any innovations that were not
 specifically required by the assignment.*
 
 
-7. **TESTING**
+ ## Testing
 *Please briefly describe your testing process.
 Here you should be careful to select representative input cases,
 including both representative typical cases as well as extreme cases.*
 
-- My testing process included displaying the testing of the byte or bit on the screen to see if the method made the desrieed changes in memory. These tests were conducted in the main of the program.  
+- My testing process included displaying the testing of the byte or bit on the screen to see if the method made the desired changes in memory. These tests were conducted in the main of the program.  
 
-8. **ERRORS**
+ ## Errors
 *List in bulleted form of all known errors
 and deficiencies with a very brief explanation.*
 
 - None 
 
-9. **LEARNING AND REACTION**
+ ## Learning and Reaction
 *A paragraph or so of your own comments
 on what you learned and your reactions to this lab.*
 
-- I have learned greater knowledge of how error detection works and have had great deal of experience with a program that utilizes error detction mechanisms. The lab was a great introduction to these new concpts and also gave additional practice with using ADT. 
+- I have learned greater knowledge of how error detection works and have had a great deal of experience with a program that utilizes error detection mechanisms. The lab was a great introduction to these new concepts and also gave additional practice with using ADT. 
 
 
-10. **INTEGRITY STATEMENT**
+ ## Integrity Statement
 *Please briefly describe ALL help you received and
 all help you gave to others in completing this lab.
 Also list all other references below.*
