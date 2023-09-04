@@ -1,0 +1,84 @@
+/* Styles for the dropdown container */
+.dropdown-container {
+    text-align: left; /* Text alignment */
+    border: 1px solid #ccc; /* Border style */
+    position: relative; /* Positioning */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Styles for the dropdown input area */
+  .dropdown-input {
+    padding: 5px; /* Inner spacing */
+    display: flex; /* Flex layout */
+    align-items: center; /* Vertical alignment */
+    justify-content: space-between; /* Spacing between elements */
+    user-select: none; /* Prevent text selection */
+  }
+  
+  /* Styles for the dropdown menu */
+  .dropdown-menu {
+    position: absolute; /* Positioning */
+    transform: translateY(4px); /* Offset from the input */
+    width: 100%; /* Full width */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    overflow: auto; /* Scrollable if content overflows */
+    max-height: 150px; /* Maximum height for scrolling */
+    background-color: #fff; /* Background color */
+    z-index: 99; /* Stack order */
+  }
+  
+  /* Styles for individual dropdown items */
+  .dropdown-item {
+    padding: 5px; /* Inner spacing */
+    cursor: pointer; /* Cursor style on hover */
+  }
+  
+  /* Styles for hovered dropdown items */
+  .dropdown-item:hover {
+    background-color: #9fc3f870; /* Background color on hover */
+  }
+  
+  /* Styles for selected dropdown items */
+  .dropdown-item.selected {
+    background-color: #0d6efd; /* Background color for selected items */
+    color: #fff; /* Text color for selected items */
+  }
+  
+  /* Styles for displaying selected tags */
+  .dropdown-tags {
+    display: flex; /* Flex layout */
+    flex-wrap: wrap; /* Allow wrapping of tags */
+    gap: 5px; /* Spacing between tags */
+  }
+  
+  /* Styles for individual selected tag items */
+  .dropdown-tag-item {
+    background-color: #ddd; /* Background color for tags */
+    padding: 2px 4px; /* Inner spacing for tags */
+    border-radius: 2px; /* Rounded corners for tags */
+    display: flex; /* Flex layout */
+    align-items: center; /* Vertical alignment */
+  }
+  
+  /* Styles for the close icon on selected tags */
+  .dropdown-tag-close {
+    display: flex; /* Flex layout */
+    align-items: center; /* Vertical alignment */
+  }
+  
+  /* Styles for the search box container */
+  .search-box {
+    padding: 5px; /* Inner spacing */
+    background-color: #eee; /* Background color */
+  }
+  
+  /* Styles for the search input field */
+  .search-box input {
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+    padding: 5px; /* Inner spacing */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
