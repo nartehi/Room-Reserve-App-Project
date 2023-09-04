@@ -99,4 +99,5 @@ Also list all other references below.*
 ## References:
 - CodePath
 - Udemy
+- https://medium.com/tinyso/how-to-create-a-dropdown-select-component-in-react-bf85df53e206
 - 
