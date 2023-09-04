@@ -23,7 +23,7 @@ function App() {
       {/* Render the Dropdown component with specific props */}
       <Dropdown
         isSearchable // Allow searching for options
-        placeHolder="Select..." // Displayed when no option is selected
+        placeHolder="Select College.." // Displayed when no option is selected
         options={options} // Pass the defined options to the Dropdown
         onChange={(value) => console.log(value)} // Handle the change event and log the selected value(s)
       />
