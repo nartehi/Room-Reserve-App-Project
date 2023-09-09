@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app-container">
       <div className='app-background'></div>
-      <h1 className="app-title">Reserve a Space</h1>
+      <h1 className="app-title">Reserve a Study Space</h1>
       <h2 className="app-subtitle">🌟 Welcome to the Reserve Room App! 🌟</h2>
       <p className="app-description">
         Explore and select available study rooms at your college.
