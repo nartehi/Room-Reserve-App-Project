@@ -4,6 +4,9 @@
     border: 1px solid #ccc; /* Border style */
     position: relative; /* Positioning */
     border-radius: 5px; /* Rounded corners */
+    width: 70%;
+    margin: auto;
+    
   }
   
   /* Styles for the dropdown input area */
@@ -13,6 +16,7 @@
     align-items: center; /* Vertical alignment */
     justify-content: space-between; /* Spacing between elements */
     user-select: none; /* Prevent text selection */
+    background-color: #f6f6f0 ;
   }
   
   /* Styles for the dropdown menu */
@@ -23,7 +27,7 @@
     border: 1px solid #ccc; /* Border style */
     border-radius: 5px; /* Rounded corners */
     overflow: auto; /* Scrollable if content overflows */
-    max-height: 150px; /* Maximum height for scrolling */
+    max-height: 260px; /* Maximum height for scrolling */
     background-color: #fff; /* Background color */
     z-index: 99; /* Stack order */
   }
@@ -32,17 +36,20 @@
   .dropdown-item {
     padding: 5px; /* Inner spacing */
     cursor: pointer; /* Cursor style on hover */
+    background-color: #e1e7e0;
+    font-size: 17px;
   }
   
   /* Styles for hovered dropdown items */
   .dropdown-item:hover {
-    background-color: #9fc3f870; /* Background color on hover */
+    background-color: #08972039; /* Background color on hover */
   }
   
   /* Styles for selected dropdown items */
   .dropdown-item.selected {
     background-color: #0d6efd; /* Background color for selected items */
     color: #fff; /* Text color for selected items */
+    
   }
   
   /* Styles for displaying selected tags */
