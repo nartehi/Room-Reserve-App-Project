@@ -36,7 +36,8 @@
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/953be48e-fec3-4093-bfc9-62ddd17aeff6" width="300"/>
 <img src = "https://github.com/nartehi/Room-Reserve-App-Project/assets/89155580/7ece0652-7239-4ec6-ae66-0453e57f1578" width="300"/>
 
-
+### Software Architecture
+<img src="https://github.com/nartehi/Room-Reserve-App-Project/assets/89232875/7394db4e-92c3-45f7-876b-bc776969e0b7"  width="400" height="500"/>
 
 ## How to Make Reserve_App_Frontend
 - Download and install Node.js 
