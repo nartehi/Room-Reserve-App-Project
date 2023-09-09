@@ -9,15 +9,20 @@ function App() {
     { value: "yale", label: "Yale" },
     { value: "harvard", label: "Harvard" },
     { value: "duke", label: "Duke" },
+    { value: "duke", label: "Kentucky" },
+    { value: "duke", label: "Accra" },
+    { value: "duke", label: "San Diego" },
+    { value: "duke", label: "Dallas" },
+    
       ];
 
   return (
     <div className="app-container">
       <div className='app-background'></div>
-      <h1 className="app-title">Reserve a Space</h1>
-      <h2 className="app-subtitle">🌟 Welcome to the Reserve Room App! 🌟</h2>
+      <h1 className="app-title">Reserve a Room</h1>
+    
       <p className="app-description">
-        Explore and select available study rooms at your college.
+        Colleges / Universities
       </p>
       <div className="app-dropdown">
       {/* Render the Dropdown component with specific props */}
