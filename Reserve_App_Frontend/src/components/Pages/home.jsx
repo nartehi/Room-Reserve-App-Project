@@ -8,10 +8,10 @@ function Home() {
     { value: "yale", label: "Yale" },
     { value: "harvard", label: "Harvard" },
     { value: "duke", label: "Duke" },
-    { value: "duke", label: "Kentucky" },
-    { value: "duke", label: "Accra" },
-    { value: "duke", label: "San Diego" },
-    { value: "duke", label: "Dallas" },
+    { value: "kentucky", label: "Kentucky" },
+    { value: "accra", label: "Accra" },
+    { value: "san-diego", label: "San Diego" },
+    { value: "dallas", label: "Dallas" },
     
       ];
 
