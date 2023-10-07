@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@wixc3/react-board": "^2.3.0",
+    "react-router-dom": "^6.16.0"
+  }
+}
