@@ -7,13 +7,13 @@ const BuildingSelector = ({ buildings, onSelectBuilding }) => {
   return (
     <div>
       <h3>Select a Building:</h3>
-      <div style={{ display: 'flex', gap: '20px' }}>
+      <div style={{ display: 'flex', gap: '20px',  justifyContent: 'center' }}>
         {buildings.map(building => (
           <div key={building.id} style={{ cursor: 'pointer' }} onClick={() => onSelectBuilding(building)}>
             <img
               src={building.image}
               alt={building.name}
-              style={{ width: '100px', height: '100px', objectFit: 'cover', borderRadius: '8px' }}
+              style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '8px' }}
             />
             <p style={{ textAlign: 'center' }}>{building.name}</p>
           </div>
@@ -24,19 +24,19 @@ const BuildingSelector = ({ buildings, onSelectBuilding }) => {
 };
 
 const RoomSelector = ({ rooms, onSelectRoom }) => {
-  return (
-    <div>
-      <h3>Select a Room:</h3>
-      <div style={{ display: 'flex', gap: '20px' }}>
-        {rooms.map(room => (
-          <button key={room.id} style={{ cursor: 'pointer' }} onClick={() => onSelectRoom(room)}>
-            {room.name}
-          </button>
-        ))}
+    return (
+      <div>
+        <h2>Select a Room:</h2>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
+          {rooms.map(room => (
+            <div key={room.id} style={{ cursor: 'pointer', textAlign: 'center', flexBasis: '22%', marginBottom: '20px' }}>
+              <button onClick={() => onSelectRoom(room)}>{room.name}</button>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 const HarvardCollege = () => {
   const initialBuildings = [
@@ -48,7 +48,20 @@ const HarvardCollege = () => {
   const initialRooms = [
     { id: 1, name: 'Room 101', buildingId: 1, start: new Date(2023, 10, 1, 9, 0), end: new Date(2023, 10, 1, 17, 0) },
     { id: 2, name: 'Room 102', buildingId: 1, start: new Date(2023, 10, 2, 9, 0), end: new Date(2023, 10, 2, 17, 0) },
-    { id: 3, name: 'Room 201', buildingId: 2, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0) },
+    { id: 3, name: 'Room 103', buildingId: 1, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0) },
+    { id: 4, name: 'Room 104', buildingId: 1, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0) },
+    { id: 1, name: 'Room 201', buildingId: 1, start: new Date(2023, 10, 1, 9, 0), end: new Date(2023, 10, 1, 17, 0) },
+    { id: 2, name: 'Room 202', buildingId: 1, start: new Date(2023, 10, 2, 9, 0), end: new Date(2023, 10, 2, 17, 0) },
+    { id: 3, name: 'Room 203', buildingId: 1, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0) },
+    { id: 4, name: 'Room 204', buildingId: 1, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0)},
+    { id: 5, name: 'Room 101', buildingId: 2, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0) },
+    { id: 6, name: 'Room 102', buildingId: 2, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0) },
+    { id: 7, name: 'Room 103', buildingId: 2, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0)},
+    { id: 8, name: 'Room 104', buildingId: 2, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0)},
+    { id: 9, name: 'Room 101', buildingId: 3, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0)},
+    { id: 10, name:'Room 102', buildingId: 3, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0)},
+    { id: 11, name:'Room 103', buildingId: 3, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0)},
+    { id: 12, name:'Room 104', buildingId: 3, start: new Date(2023, 10, 3, 9, 0), end: new Date(2023, 10, 3, 17, 0)},
   ];
 
   const [buildings, setBuildings] = useState(initialBuildings);
@@ -79,7 +92,7 @@ const HarvardCollege = () => {
   const handleReserve = () => {
     if (selectedRoom && selectedTime) {
       // Implement your reservation logic here
-      alert(`Room ${selectedRoom.name} reserved from ${moment(selectedTime.start).format('LLL')} to ${moment(selectedTime.end).format('LLL')}`);
+      alert(`${selectedRoom.name} reserved from ${moment(selectedTime.start).format('LLL')} to ${moment(selectedTime.end).format('LLL')}`);
     } else {
       alert('Please select a room and time slot for reservation.');
     }
@@ -89,13 +102,13 @@ const HarvardCollege = () => {
 
   return (
     <div style={{ maxWidth: '800px', margin: 'auto', padding: '20px' }}>
-      <h2 style={{ textAlign: 'center' }}>Harvard College</h2>
+      <h1 style={{ textAlign: 'center' }}>Berea College</h1>
       {selectedBuilding ? (
         <>
           <BuildingSelector buildings={buildings} onSelectBuilding={() => setSelectedBuilding(null)} />
           <RoomSelector rooms={rooms.filter(room => room.buildingId === selectedBuilding.id)} onSelectRoom={handleSelectRoom} />
           {selectedRoom && (
-            <div style={{ margin: '20px', border: '1px solid #ddd', borderRadius: '8px', overflow: 'hidden' }}>
+            <div className="" style={{ margin: '20px', border: '2px solid teal', borderRadius: '8px', overflow: 'hidden' }}>
               <Calendar
                 localizer={localizer}
                 events={[selectedRoom]}
